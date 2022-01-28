@@ -234,7 +234,7 @@ class Message
     /**
      * @return Collection<Commentaire>
      */
-    public function getCommentaires()
+    public function getCommentaires() :Collection
     {
         return $this->commentaires;
     }
